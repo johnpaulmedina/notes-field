@@ -1,0 +1,11 @@
+{
+  "notesField.defaultPlaceholder": "Write note",
+  "notesField.addNote": "Add Note",
+  "notesField.showMoreNotes": "Show all notes (:hiddenNoteCount more)",
+  "notesField.delete": "Delete",
+  "notesField.deleteConfirmation": "Are you sure you want to delete this note?",
+  "notesField.cancel": "Cancel",
+  "notesField.deleteNoteTitle": "Delete Note",
+  "notesField.systemUserAbbreviation": "SYS",
+  "notesField.systemUserName": "System"
+}
