@@ -6,17 +6,9 @@ use Gate;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Database\Eloquent\Model;
 use Johnpaulmedina\NotesField\NotesFieldServiceProvider;
-use Johnpaulmedina\NotesField\Traits\EncryptableAttribute;
 
 class Note extends Model
 {
-
-    use EncryptableAttribute;
-
-    protected $encryptable = [
-        'text'
-    ];
-
     protected $table = 'notes';
     protected $casts = ['system' => 'bool'];
     protected $fillable = ['model_id', 'model_type', 'text', 'created_by', 'system', 'notable_type', 'notable_id'];
