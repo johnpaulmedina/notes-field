@@ -21,7 +21,7 @@ Nova.booting((Vue, router, store) => {
     attributeFilter: ['class'],
   });
 
-  Vue.component('index-nova-notes-field', IndexField);
-  Vue.component('detail-nova-notes-field', DetailField);
-  Vue.component('form-nova-notes-field', FormField);
+  Vue.component('index-notes-field', IndexField);
+  Vue.component('detail-notes-field', DetailField);
+  Vue.component('form-notes-field', FormField);
 });

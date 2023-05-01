@@ -1,6 +1,6 @@
 <?php return array(
     'root' => array(
-        'name' => 'outl1ne/nova-notes-field',
+        'name' => 'johnpaulmedina/notes-field',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
         'reference' => 'd3fe1e63c24ae156924e52bfeae1cf79414ad41d',
@@ -343,6 +343,15 @@
             'aliases' => array(),
             'dev_requirement' => false,
         ),
+        'johnpaulmedina/notes-field' => array(
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
+            'reference' => 'd3fe1e63c24ae156924e52bfeae1cf79414ad41d',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../../',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
         'laravel/framework' => array(
             'pretty_version' => 'v10.9.0',
             'version' => '10.9.0.0',
@@ -472,15 +481,6 @@
             'reference' => 'dd73318406b1fffdeaa333a32e175149d28224f7',
             'type' => 'library',
             'install_path' => __DIR__ . '/../openspout/openspout',
-            'aliases' => array(),
-            'dev_requirement' => false,
-        ),
-        'outl1ne/nova-notes-field' => array(
-            'pretty_version' => 'dev-main',
-            'version' => 'dev-main',
-            'reference' => 'd3fe1e63c24ae156924e52bfeae1cf79414ad41d',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
         ),

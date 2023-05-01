@@ -9,7 +9,7 @@ use Johnpaulmedina\NotesField\NotesFieldServiceProvider;
 
 class Note extends Model
 {
-    protected $table = 'nova_notes';
+    protected $table = 'notes';
     protected $casts = ['system' => 'bool'];
     protected $fillable = ['model_id', 'model_type', 'text', 'created_by', 'system', 'notable_type', 'notable_id'];
     protected $hidden = ['createdBy', 'notable_type', 'notable_id'];

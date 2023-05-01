@@ -52,14 +52,14 @@ class NotesFieldServiceProvider extends ServiceProvider
         if ($this->app->routesAreCached()) return;
 
         Route::middleware(['nova'])
-            ->prefix('nova-vendor/nova-notes')
+            ->prefix('nova-vendor/notes')
             ->namespace('\Johnpaulmedina\NotesField\Http\Controllers')
             ->group(__DIR__ . '/../routes/api.php');
     }
 
     public static function getTableName()
     {
-        return config('notes-field.table_name', 'nova_notes');
+        return config('notes-field.table_name', 'notes');
     }
 
     public static function getNotesModel()

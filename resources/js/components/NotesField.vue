@@ -81,7 +81,7 @@ export default {
     async fetchNotes() {
       this.loading = true;
 
-      const { data } = await Nova.request().get(`/nova-vendor/nova-notes/notes`, {
+      const { data } = await Nova.request().get(`/nova-vendor/notes/notes`, {
         params: this.params,
       });
       const { notes, date_format: dateFormat, trix_enabled: trixEnabled, full_width: fullWidth } = data;
@@ -97,7 +97,7 @@ export default {
       this.loading = true;
 
       try {
-        await Nova.request().post(`/nova-vendor/nova-notes/notes`, { note: this.note }, { params: this.params });
+        await Nova.request().post(`/nova-vendor/notes/notes`, { note: this.note }, { params: this.params });
         await this.fetchNotes();
       } catch (e) {
         Nova.error(this.__('There was a problem submitting the form.'));
@@ -111,7 +111,7 @@ export default {
       this.loading = true;
 
       try {
-        await Nova.request().delete(`/nova-vendor/nova-notes/notes`, {
+        await Nova.request().delete(`/nova-vendor/notes/notes`, {
           params: this.params,
           data: { noteId: note.id },
         });

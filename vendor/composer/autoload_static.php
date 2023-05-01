@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063
+class ComposerStaticInit7b6a6fc99eb55c8548b8065e6a0824fb
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
@@ -94,7 +94,6 @@ class ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063
         'O' => 
         array (
             'Outl1ne\\NovaTranslationsLoader\\' => 31,
-            'Outl1ne\\NovaNotesField\\' => 23,
             'OpenSpout\\' => 10,
         ),
         'M' => 
@@ -110,6 +109,10 @@ class ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063
             'Laravel\\Ui\\' => 11,
             'Laravel\\SerializableClosure\\' => 28,
             'Laravel\\Nova\\' => 13,
+        ),
+        'J' => 
+        array (
+            'Johnpaulmedina\\NotesField\\' => 26,
         ),
         'I' => 
         array (
@@ -323,10 +326,6 @@ class ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063
         array (
             0 => __DIR__ . '/..' . '/outl1ne/nova-translations-loader/src',
         ),
-        'Outl1ne\\NovaNotesField\\' => 
-        array (
-            0 => __DIR__ . '/../..' . '/src',
-        ),
         'OpenSpout\\' => 
         array (
             0 => __DIR__ . '/..' . '/openspout/openspout/src',
@@ -362,6 +361,10 @@ class ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063
         'Laravel\\Nova\\' => 
         array (
             0 => __DIR__ . '/..' . '/laravel/nova/src',
+        ),
+        'Johnpaulmedina\\NotesField\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Inertia\\' => 
         array (
@@ -521,9 +524,9 @@ class ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb003f6fe4f8b473d617a4630dbcd6063::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit7b6a6fc99eb55c8548b8065e6a0824fb::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit7b6a6fc99eb55c8548b8065e6a0824fb::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit7b6a6fc99eb55c8548b8065e6a0824fb::$classMap;
 
         }, null, ClassLoader::class);
     }
