@@ -3,7 +3,7 @@
         'name' => 'johnpaulmedina/notes-field',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'd3fe1e63c24ae156924e52bfeae1cf79414ad41d',
+        'reference' => '994090f6a422eeeff307399b50c29fd31581b599',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -346,7 +346,7 @@
         'johnpaulmedina/notes-field' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'd3fe1e63c24ae156924e52bfeae1cf79414ad41d',
+            'reference' => '994090f6a422eeeff307399b50c29fd31581b599',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -553,8 +553,8 @@
         'psr/log-implementation' => array(
             'dev_requirement' => false,
             'provided' => array(
-                0 => '1.0|2.0|3.0',
-                1 => '3.0.0',
+                0 => '3.0.0',
+                1 => '1.0|2.0|3.0',
             ),
         ),
         'psr/simple-cache' => array(
